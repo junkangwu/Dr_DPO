@@ -61,3 +61,6 @@ if loss_config.mode_loss == "DrDPO":
 else:
     return losses.mean(), metrics
 ```
+
+## Acknowledgement
+The project is built upon [DPO](https://github.com/eric-mitchell/direct-preference-optimization)
